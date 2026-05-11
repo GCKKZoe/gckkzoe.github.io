@@ -1,36 +1,63 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Research"
+permalink: /research/
 author_profile: true
+redirect_from:
+  - /publications/
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my work on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</div>
 {% endif %}
+
+<h2>Research Interests</h2>
+<p>Financial intermediaries; information disclosure; equity research analysts; institutions and financial markets in China.</p>
+
+<h2>Job Market Paper</h2>
+<ol>
+  <li>
+    <strong>Fee Salience and Mutual Fund Market Discipline: Evidence from Tailored Shareholder Reports</strong>
+    <p><strong>Brief:</strong> Using the SEC's 2022 Tailored Shareholder Report rule as a natural experiment, I show that making mutual fund fees more salient in disclosures, without adding new information, significantly increases retail investors' fee sensitivity and induces funds to lower expenses. The evidence suggests that investor tolerance of high fees reflects poor information design rather than a lack of available information.</p>
+  </li>
+</ol>
+
+<h2>Working Papers</h2>
+<ol>
+  <li>
+    <strong>Discounting Chinese Industrial Policy</strong> (with Andrew Sinclair)<br />
+    Revise &amp; Resubmit, <em>European Economic Review</em>
+    <p><strong>Presentations:</strong> USC (China Workshop), University of Toronto, HKU Business School, USC (Finance)</p>
+    <p><strong>Brief:</strong> Using a newly constructed dataset of authoritative State Council policy documents, we show that Chinese industrial policy entails substantial implementation risk because government priorities can shift unexpectedly over time. Investors price this risk by discounting policy-supported firms by 7.2% annually, raising firms' cost of capital and revealing a previously undocumented financial cost of industrial policy risk.</p>
+  </li>
+  <li>
+    <strong>Why (How) Do Analysts Issue Multiple Forecasts in a Day?</strong> (with Tse-Chun Lin)
+    <p><strong>Presentations:</strong> AFA 2025 (poster), AsianFA 2025, HKU Business School</p>
+    <p><strong>Brief:</strong> We show that analysts increasingly issue multiple forecasts on the same day because of higher workload, even though this forecast clustering reduces forecast quality. Analysts cluster less for career-relevant and more informative forecasts, and firms exposed to persistent clustering exhibit weaker information environments.</p>
+  </li>
+  <li>
+    <strong>The Ripple Effect of IPO Underwriting Bias on Peer-Firm Analyst Recommendations</strong> (with Yuchou Peng)
+    <p><strong>Presentations:</strong> AsianFA 2025, AFBC 2025, HKU Business School, Erasmus University (RSM)</p>
+    <p><strong>Brief:</strong> We document a new form of analyst bias, peer-firm IPO optimism: when a brokerage underwrites an IPO, its affiliated analysts issue more optimistic recommendations for peer firms to support the deal. The effect is stronger when underwriting incentives are larger and peer firms are more visible or complex, while the affected recommendations are less informative but not fully discounted by markets.</p>
+  </li>
+</ol>
+
+<h2>Publications</h2>
+<ol>
+  <li>
+    <strong>Retail Hedge Funds</strong> (with Andrew Sinclair)<br />
+    <em>Journal of Alternative Investments</em>, 2025
+  </li>
+</ol>
+
+<h2>Work in Progress</h2>
+<ol>
+  <li>
+    <strong>Price Controls and Wealth Redistribution in the Chinese IPO Market</strong> (with Andrew Sinclair)
+  </li>
+</ol>
 
 
 

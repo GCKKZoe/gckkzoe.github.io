@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-{% include cv-template.html %}
+<p>This site uses a hand-curated CV page rather than the default JSON resume template.</p>
 
 <div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
+  <a href="{{ base_path }}/files/CV_Zhang_Chuyi.pdf" class="btn btn--primary">Download CV as PDF</a>
+  <a href="{{ base_path }}/cv/" class="btn btn--inverse">View Web CV</a>
 </div>

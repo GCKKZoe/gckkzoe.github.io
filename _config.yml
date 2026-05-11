@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Chuyi Zhang"
 title_separator          : "-"
 name                     : &name "Chuyi Zhang"
-description              : &description "Academic website of Chuyi Zhang, PhD Candidate in Finance at The University of Hong Kong."
+description              : &description "Academic website of Chuyi Zhang, Finance PhD Candidate at HKU Business School and 2026-2027 job market candidate."
 url                      : "https://gckkzoe.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                        # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "prof_final.png"
   name             : "Chuyi Zhang"
   pronouns         : # example: "she/her"
-  bio              : "PhD Candidate in Finance at The University of Hong Kong"
+  bio              : "Finance PhD Candidate at HKU Business School"
   location         : "Hong Kong"
-  employer         : "The University of Hong Kong"
+  employer         : "HKU Business School"
   uri              : # URL
   email            : "chuyi.zhang@connect.hku.hk"
 
@@ -143,7 +143,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           : "Academic website of Chuyi Zhang, PhD Candidate in Finance at The University of Hong Kong."
+og_description           : "Academic website of Chuyi Zhang, Finance PhD Candidate at HKU Business School and 2026-2027 job market candidate."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
