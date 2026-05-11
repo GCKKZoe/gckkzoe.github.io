@@ -79,3 +79,7 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+.masthead__name-native {
+  font-weight: 500;
+}

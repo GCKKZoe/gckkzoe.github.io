@@ -9,10 +9,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Chuyi Zhang"
+title                    : "Chuyi ZHANG"
+title_native             : "张楚燚"
 title_separator          : "-"
-name                     : &name "Chuyi Zhang"
-description              : &description "Academic website of Chuyi Zhang, Finance PhD Candidate at HKU Business School and 2026-2027 job market candidate."
+name                     : &name "Chuyi ZHANG"
+name_native              : &name_native "张楚燚"
+description              : &description "Academic website of Chuyi ZHANG, Finance PhD Candidate at HKU Business School and 2026-2027 job market candidate."
 url                      : "https://gckkzoe.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                        # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,7 +26,8 @@ repository               : "GCKKZoe/gckkzoe.github.io"
 author:
   # Biographic information
   avatar           : "prof_final.png"
-  name             : "Chuyi Zhang"
+  name             : "Chuyi ZHANG"
+  name_native      : "张楚燚"
   pronouns         : # example: "she/her"
   bio              : "Finance PhD Candidate at HKU Business School"
   location         : "Hong Kong"
@@ -143,12 +146,12 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           : "Academic website of Chuyi Zhang, Finance PhD Candidate at HKU Business School and 2026-2027 job market candidate."
+og_description           : "Academic website of Chuyi ZHANG, Finance PhD Candidate at HKU Business School and 2026-2027 job market candidate."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person"
-  name                   : "Chuyi Zhang"
+  name                   : "Chuyi ZHANG 张楚燚"
   links:
     - "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
     - "https://github.com/GCKKZoe"

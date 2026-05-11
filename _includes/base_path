@@ -1,4 +1,8 @@
-{% if site.url %}
+{% assign local_hosts = 'localhost,127.0.0.1' | split: ',' %}
+{% assign site_host = site.url | default: '' | remove: 'http://' | remove: 'https://' | split: ':' | first %}
+{% if local_hosts contains site_host %}
+  {% assign base_path = site.baseurl %}
+{% elsif site.url %}
   {% assign base_path = site.url | append: site.baseurl %}
 {% else %}
   {% assign base_path = site.github.url %}
