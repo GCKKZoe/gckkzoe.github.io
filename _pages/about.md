@@ -30,3 +30,12 @@ Education
 * The University of Hong Kong, Ph.D. in Finance, expected 2027
 * The University of Hong Kong, B.B.A. in Accounting and Finance, First Class Honours, 2018
 * University of California, Berkeley, Visiting Student, 2017
+
+Awards
+======
+
+* AFA PhD Student Travel Grant, 2025
+* Postgraduate Scholarship, 2021-2025
+* University Postgraduate Fellowship, 2021
+* W.S. Wong Prize in Accounting and Finance, 2017
+* Rosita King Ho Scholarship, 2016
