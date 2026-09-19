@@ -14,7 +14,7 @@ title_native             : "张楚燚"
 title_separator          : "-"
 name                     : &name "Chuyi ZHANG"
 name_native              : &name_native "张楚燚"
-description              : &description "Academic website of Chuyi ZHANG, Finance PhD Candidate at HKU Business School and 2026-2027 job market candidate."
+description              : &description "Chuyi ZHANG, Finance PhD Candidate at HKU Business School. Research on information frictions and market discipline in financial intermediation. 2026-2027 job market candidate."
 url                      : "https://chuyizhang.com" # The base hostname & protocol for your deployed site
                                                        # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -146,7 +146,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           : "Academic website of Chuyi ZHANG, Finance PhD Candidate at HKU Business School and 2026-2027 job market candidate."
+og_description           : "Chuyi ZHANG, Finance PhD Candidate at HKU Business School. Research on information frictions and market discipline in financial intermediation. 2026-2027 job market candidate."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

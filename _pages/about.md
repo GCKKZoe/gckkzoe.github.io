@@ -1,6 +1,6 @@
 ---
 permalink: /
-description: "Finance Ph.D. candidate at HKU Business School, The University of Hong Kong, on the 2026-2027 academic job market."
+description: "Finance Ph.D. candidate at HKU Business School studying information frictions and market discipline in financial intermediation. On the 2026-2027 academic job market."
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,17 +12,16 @@ redirect_from:
 About
 ======
 
-Welcome! I am a Ph.D. candidate in Finance at HKU Business School, The University of Hong Kong. My research focuses on financial intermediary disclosure and Chinese fnancial markets. I will be on the 2026-2027 academic job market.
+Welcome! I am a Ph.D. candidate in Finance at HKU Business School, The University of Hong Kong. My research examines how information frictions shape investor decisions and market discipline in financial intermediation. I will be on the 2026-2027 academic job market.
 
 You can find my current [CV here]({{ base_path }}/files/CV_Zhang_Chuyi.pdf).
 
 Research Interests
 ======
 
+* Information frictions
+* Market discipline
 * Financial intermediaries
-* Information disclosure
-* Equity research analysts
-* Institutions and financial markets in China
 
 Education
 ======
