@@ -19,9 +19,14 @@ You can find my current [CV here]({{ base_path }}/files/CV_Zhang_Chuyi.pdf).
 Research Interests
 ======
 
-* Information frictions
-* Market discipline
-* Financial intermediaries
+<ul>
+{% for interest in site.data.research.interests %}  <li>{{ interest | escape }}</li>
+{% endfor %}</ul>
+
+Working Papers
+======
+
+{% include working-papers.html heading_level=2 %}
 
 Education
 ======

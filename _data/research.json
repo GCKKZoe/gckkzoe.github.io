@@ -1,0 +1,53 @@
+{
+  "interests": [
+    "Financial Disclosure",
+    "Household Finance",
+    "Asset Management",
+    "Financial Analysts"
+  ],
+  "working_papers": [
+    {
+      "id": "fund-fees",
+      "title": "Reconsidering Fund Fees: Disclosure Salience and the Decision to Stay",
+      "abstract": "Mutual fund investors choose once but pay for years. Because ownership continues by default and expenses are deducted from assets rather than billed, investors may keep paying for a fund that is no longer worth its fee. I ask whether sending existing investors more salient expense information changes whether they remain invested. The SEC's Tailored Shareholder Report reform replaced lengthy reports with short, class-specific reports that put expenses first. Using staggered first-report timing across funds' fiscal calendars, I find that retail flows become more fee-sensitive. A one-standard-deviation higher expense ratio is associated with an additional annual net-flow reduction of 3.4 percentage points. Institutional classes of the same funds, whose investors rely less on these reports, show no significant change. Redemptions of existing capital account for most of the early response. Fee sensitivity rises more where earlier reports made expenses harder to locate and following deterioration in relative performance. As investors become more fee-sensitive, high-fee funds respond by lowering fees relative to peers and moving portfolios further from their benchmarks. These findings show that delivering an already-public cost in a salient form can weaken inertia without asking investors to choose again.",
+      "presentations": "RBFC 2026; FMA Doctoral Consortium 2026",
+      "label": "Job market paper · Solo-authored",
+      "url": "mailto:chuyi.zhang@connect.hku.hk?subject=Request%20for%20Reconsidering%20Fund%20Fees",
+      "link_label": "Request draft",
+      "availability": "Draft available upon request."
+    },
+    {
+      "id": "industrial-policy",
+      "title": "Discounting Chinese Industrial Policy",
+      "abstract": "Each year, the Chinese central government issues dozens of policy documents directing its local officials to promote the development of targeted industries. Although central support is valuable in expectation, the duration and intensity of support are uncertain and revealed only over time. We find that small supported firms earn approximately 7.2% in annualized abnormal returns relative to a leading Chinese asset-pricing benchmark. We demonstrate that the pattern of these returns is consistent with rational discounting of policy-support uncertainty and is difficult to reconcile with alternative explanations based on systematic mispricing. Together, our results reveal an important market dynamic that is rooted in China's unique political economy.",
+      "presentations": "USC (China Workshop)*; University of Toronto*; HKU Business School; USC (Finance)*",
+      "coauthor": "Andrew Sinclair",
+      "url": "/files/papers/discounting-chinese-industrial-policy.pdf",
+      "link_label": "Paper (PDF)",
+      "status": "Conditionally accepted",
+      "journal": "European Economic Review",
+      "ssrn_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5147033",
+      "media_url": "https://www.voxchina.org/show-3-338.html",
+      "media_label": "VoxChina"
+    },
+    {
+      "id": "ipo-peers",
+      "title": "Underwriting Optimism: Analyst Bias toward IPO Peers",
+      "abstract": "Lead underwriter analysts make favorable recommendations for issuers’ product-market peers to boost IPO valuations, a phenomenon we term *Peer-firm IPO Optimism* (PFIO). Buy probabilities rise by 5.5% and sell probabilities fall by 21.8% relative to their unconditional means. PFIO increases with underwriting responsibility, peer size, investor attention, and valuation complexity. However, earnings and long-term growth forecasts show no greater optimism, consistent with underwriting incentives rather than sincere optimism. Affected buys and upgrades elicit no significantly weaker announcement responses but underperform unaffected recommendations over longer horizons. Unlike direct-affiliation bias, PFIO is not detectably weaker at banks sanctioned under the Global Settlement.",
+      "presentations": "AsianFA 2025*; AFBC 2025; HKU Business School; Erasmus University (RSM)*; RBFC 2026*; FMA 2026; TFA 2026",
+      "coauthor": "Yuchou Peng",
+      "url": "/files/papers/underwriting-optimism.pdf",
+      "link_label": "Paper (PDF)",
+      "award": "Best Presentation Award, 2nd HKU Next-Gen Finance PhD Workshop, 2026"
+    },
+    {
+      "id": "forecast-clustering",
+      "title": "Why (How) Do Analysts Make Multiple Forecasts in a Day?",
+      "abstract": "Analysts increasingly issue earnings forecasts for multiple firms on the same day (“forecast clustering”), accounting for 55.9% of one-year-ahead EPS forecasts in 2024. Because clustering is associated with lower forecast accuracy, we examine why clustering occurs and when analysts avoid it. Clustering is more prevalent when workload creates scheduling congestion, including concurrent earnings announcements, elevated news activity at other portfolio firms, and exact-second same-industry forecast batches. Clustering is less common for career-relevant firms and for forecasts accompanied by recommendation revisions, consistent with strategic effort allocation under capacity constraints. Firms persistently exposed to clustered forecasts exhibit wider bid–ask spreads and higher illiquidity.",
+      "presentations": "AFA 2025 (poster); AsianFA 2025; HKU Business School",
+      "coauthor": "Tse-Chun Lin",
+      "url": "/files/papers/analyst-forecast-clustering.pdf",
+      "link_label": "Paper (PDF)"
+    }
+  ]
+}
