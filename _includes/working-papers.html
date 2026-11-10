@@ -2,7 +2,7 @@
 <div class="working-papers">
   {% for paper in site.data.research.working_papers %}
   <article class="working-paper" aria-labelledby="{{ paper.id }}">
-    <h{{ paper_heading }} id="{{ paper.id }}"><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></h{{ paper_heading }}>
+    <h{{ paper_heading }} id="{{ paper.id }}">{% if paper.url contains 'mailto:' %}{{ paper.title | escape }}{% else %}<a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a>{% endif %}</h{{ paper_heading }}>
     <p class="working-paper__byline">{% if paper.coauthor %}With {{ paper.coauthor | escape }}{% else %}<strong>{{ paper.label | escape }}</strong>{% endif %}</p>
     {% if paper.status %}<p>{{ paper.status | escape }}, <strong><em>{{ paper.journal | escape }}</em></strong></p>{% endif %}
     <p class="working-paper__links"><a href="{{ paper.url | escape }}" aria-label="{{ paper.link_label | escape }}: {{ paper.title | escape }}">{{ paper.link_label | escape }}</a>{% if paper.ssrn_url %} · <a href="{{ paper.ssrn_url | escape }}">SSRN</a>{% endif %}{% if paper.media_url %} · Media coverage: <a href="{{ paper.media_url | escape }}">{{ paper.media_label | escape }}</a>{% endif %}{% if paper.availability %} <span class="working-paper__availability">{{ paper.availability | escape }}</span>{% endif %}</p>
