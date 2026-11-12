@@ -240,6 +240,10 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  - scope:
+      path: "files/recruiting"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
